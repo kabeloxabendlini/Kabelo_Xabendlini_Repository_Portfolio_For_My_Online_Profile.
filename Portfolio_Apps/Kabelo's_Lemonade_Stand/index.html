@@ -1,0 +1,88 @@
+<!-- ******************************************** Line 1 - 26 ***************************************** -->
+
+<!-- <!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kabelo Xabendlini's Lemonade stand ! Game</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+ 
+</head>
+ 
+<body>
+    <div id="7DayWeather"></div>
+    <br clear="all">
+    <div id="orderForm">
+        <div id="glasses">
+            <label>How many glasses of lemonade do you want to make this week?
+                <br />
+                <input type="number" id="numGlasses" placeholder="hint: think big!" />
+            </label>
+        </div>
+        <div id="price">
+            <label>How much will you charge for a glass of lemonade this week?
+                <br />
+                <input type="number" id="glassPrice" placeholder="more than .5" />
+            </label>
+        </div>
+        <button type="button" id="OpenTheStand">Open The Stand!</button>
+    </div>
+    <div id="result"></div>
+    <script src='main.js'></script>
+</body>
+</html> -->
+
+<!-- ******************************************** Line 1 - 26 ***************************************** -->
+
+<!-- ******************************************** Line 40 - 86 **************************************** -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>The Lemonade Stand Game</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="text-align: center;">🍋🍋🍋🍋 The Lemonade Stand Game ! 🍋🍋🍋🍋</h1>
+    </header>
+
+    Weather Forecast Display
+    <section id="7DayWeather" style="overflow: auto;"></section>
+
+    Order Form
+    <section id="orderForm">
+        <form>
+            <div class="form-group">
+                <label for="numGlasses">How many glasses of lemonade will you make this week?</label>
+                <input type="number" id="numGlasses" placeholder="Hint: think big!" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="glassPrice">How much will you charge per glass? (min $0.50)</label>
+                <input type="number" id="glassPrice" step="0.01" placeholder="e.g. 1.00" min="0.5" required>
+            </div>
+
+            <button type="button" id="OpenTheStand">Open The Stand!</button>
+        </form>
+    </section>
+
+    Results
+    <section id="result"></section>
+
+    <script src='main.js'></script>
+</body>
+
+</html>
+
+<!-- ******************************************** Line 40 - 86 ***************************************** -->
+
